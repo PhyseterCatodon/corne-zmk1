@@ -13,7 +13,7 @@
         AcuteE: AcuteE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk RALT &kp E &kp E>;
+            bindings = <&kp RA(E) &kp E>;
             label = "ACUTEE";
         };
     };
